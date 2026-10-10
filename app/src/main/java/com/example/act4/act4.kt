@@ -30,4 +30,10 @@ fun Act4(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
-        
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(colorResource(R.color.overlay_dark))
+        )
+
+       
