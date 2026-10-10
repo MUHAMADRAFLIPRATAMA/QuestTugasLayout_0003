@@ -65,3 +65,11 @@ fun Act4(modifier: Modifier = Modifier) {
                     Alignment.CenterVertically
                 )
             ) {
+                ProfileCard(
+                    name = stringResource(R.string.name_amba),
+                    location = stringResource(R.string.loc_amba),
+                    photo = R.drawable.amba,
+                    cardColor = colorResource(R.color.card_gray),
+                    locationColor = colorResource(R.color.text_yellow),
+                    nameFont = FontFamily.Cursive
+                )
