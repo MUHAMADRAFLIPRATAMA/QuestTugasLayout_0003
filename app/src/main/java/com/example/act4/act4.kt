@@ -24,4 +24,10 @@ import androidx.compose.ui.unit.sp
 fun Act4(modifier: Modifier = Modifier) {
     Box(modifier = Modifier.fillMaxSize()) {
 
-        }
+        Image(
+            painter = painterResource(R.drawable.prabwowo),
+            contentDescription = stringResource(R.string.desc_background),
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+        
