@@ -107,4 +107,13 @@ fun Act4(modifier: Modifier = Modifier) {
                 )
             }
 
-            
+            Text(
+                text = stringResource(R.string.footer_copyright),
+                color = colorResource(R.color.text_white),
+                fontSize = dimensionResource(R.dimen.text_footer).value.sp
+            )
+        }
+    }
+}
+
+
