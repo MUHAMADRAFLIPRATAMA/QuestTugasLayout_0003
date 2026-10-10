@@ -56,4 +56,12 @@ fun Act4(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
-            
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(
+                    dimensionResource(R.dimen.card_spacing),
+                    Alignment.CenterVertically
+                )
+            ) {
