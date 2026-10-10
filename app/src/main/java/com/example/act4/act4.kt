@@ -117,3 +117,15 @@ fun Act4(modifier: Modifier = Modifier) {
 }
 
 
+@Composable
+fun ProfileCard(
+    name: String,
+    location: String,
+    photo: Int,
+    cardColor: Color,
+    locationColor: Color,
+    modifier: Modifier = Modifier,
+    phone: String? = null,
+    nameFont: FontFamily? = null
+) {
+    
