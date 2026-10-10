@@ -81,3 +81,11 @@ fun Act4(modifier: Modifier = Modifier) {
                     cardColor = colorResource(R.color.card_purple),
                     locationColor = colorResource(R.color.text_yellow)
                 )
+                ProfileCard(
+                    name = stringResource(R.string.name_fuad),
+                    phone = stringResource(R.string.phone_fuad),
+                    location = stringResource(R.string.loc_fuad),
+                    photo = R.drawable.fuad,
+                    cardColor = colorResource(R.color.card_blue),
+                    locationColor = colorResource(R.color.text_white)
+                )
