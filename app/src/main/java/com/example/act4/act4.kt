@@ -169,4 +169,8 @@ fun ProfileCard(
                 )
             }
 
-            
+            Foto(photo)
+        }
+    }
+}
+
