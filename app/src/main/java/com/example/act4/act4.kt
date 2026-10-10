@@ -139,4 +139,11 @@ fun ProfileCard(
                 .padding(dimensionResource(R.dimen.card_padding)),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            
+            Foto(photo)
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.text_gap))
+            ) {
+                
