@@ -161,4 +161,12 @@ fun ProfileCard(
                         fontSize = dimensionResource(R.dimen.text_info).value.sp
                     )
                 }
-                
+                Spacer(Modifier.height(dimensionResource(R.dimen.spacer_small)))
+                Text(
+                    text = location,
+                    color = locationColor,
+                    fontSize = dimensionResource(R.dimen.text_info).value.sp
+                )
+            }
+
+            
