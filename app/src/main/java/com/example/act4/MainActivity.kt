@@ -11,3 +11,16 @@ import androidx.compose.ui.Modifier
 import com.example.act4.ui.theme.Act4Theme
 
 
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            Act4Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    Act4(modifier = Modifier.padding(innerPadding))
+                }
+            }
+        }
+    }
+}
