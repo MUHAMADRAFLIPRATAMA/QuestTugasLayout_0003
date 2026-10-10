@@ -73,3 +73,11 @@ fun Act4(modifier: Modifier = Modifier) {
                     locationColor = colorResource(R.color.text_yellow),
                     nameFont = FontFamily.Cursive
                 )
+                ProfileCard(
+                    name = stringResource(R.string.name_rusdi),
+                    phone = stringResource(R.string.phone_rusdi),
+                    location = stringResource(R.string.loc_rusdi),
+                    photo = R.drawable.a,
+                    cardColor = colorResource(R.color.card_purple),
+                    locationColor = colorResource(R.color.text_yellow)
+                )
