@@ -49,4 +49,11 @@ fun Act4(modifier: Modifier = Modifier) {
                 fontSize = dimensionResource(R.dimen.text_header).value.sp,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = stringResource(R.string.header_subtitle),
+                color = colorResource(R.color.text_white),
+                fontSize = dimensionResource(R.dimen.text_subheader).value.sp,
+                fontWeight = FontWeight.Bold
+            )
+
             
