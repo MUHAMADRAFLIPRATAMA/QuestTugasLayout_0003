@@ -146,4 +146,11 @@ fun ProfileCard(
                     .weight(1f)
                     .padding(horizontal = dimensionResource(R.dimen.text_gap))
             ) {
+                Text(
+                    text = name,
+                    color = colorResource(R.color.text_white),
+                    fontSize = dimensionResource(R.dimen.text_name).value.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = nameFont
+                )
                 
