@@ -36,4 +36,11 @@ fun Act4(modifier: Modifier = Modifier) {
                 .background(colorResource(R.color.overlay_dark))
         )
 
-       
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .systemBarsPadding()
+                .padding(dimensionResource(R.dimen.screen_padding)),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+           
