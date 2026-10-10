@@ -128,4 +128,8 @@ fun ProfileCard(
     phone: String? = null,
     nameFont: FontFamily? = null
 ) {
-    
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
+        colors = CardDefaults.cardColors(containerColor = cardColor)
+    ) {
