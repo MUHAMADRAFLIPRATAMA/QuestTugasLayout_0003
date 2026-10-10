@@ -43,4 +43,10 @@ fun Act4(modifier: Modifier = Modifier) {
                 .padding(dimensionResource(R.dimen.screen_padding)),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-           
+            Text(
+                text = stringResource(R.string.header_title),
+                color = colorResource(R.color.text_white),
+                fontSize = dimensionResource(R.dimen.text_header).value.sp,
+                fontWeight = FontWeight.Bold
+            )
+            
