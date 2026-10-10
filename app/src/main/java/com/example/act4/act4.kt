@@ -153,4 +153,12 @@ fun ProfileCard(
                     fontWeight = FontWeight.Bold,
                     fontFamily = nameFont
                 )
+                if (phone != null) {
+                    Spacer(Modifier.height(dimensionResource(R.dimen.spacer_small)))
+                    Text(
+                        text = phone,
+                        color = colorResource(R.color.text_cyan),
+                        fontSize = dimensionResource(R.dimen.text_info).value.sp
+                    )
+                }
                 
