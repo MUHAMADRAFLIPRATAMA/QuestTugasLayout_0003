@@ -174,3 +174,12 @@ fun ProfileCard(
     }
 }
 
+@Composable
+private fun Foto(photo: Int) {
+    Image(
+        painter = painterResource(photo),
+        contentDescription = stringResource(R.string.desc_photo),
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.size(dimensionResource(R.dimen.photo_size))
+    )
+}
